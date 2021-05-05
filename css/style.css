@@ -1,11 +1,30 @@
-body {baxkground-color: lightgrey;}
+body
+	{
+		background-color: lightgrey;
+	}
 
-h1 {COLOR: green;}
+ a:link, a:visited
+ 	{
+ 		background-color: green;
+ 		color:white;
+ 		text-decoration: none;
+ 		padding: 15px;
+ 		text-align: center;
+ 		display: inline-block;
+ 		font-family: verdana;
+ 	}
 
-p
-		{
+a:hover
+	{
+		color:grey;
+		background-color: pink;
+		text-decoration: underline;
+	}
 
-				color:#465978;
-				font-size: 16pt;
-				font-family: verdana;
-		}
+a:active
+	{
+		color:green;
+		background-color: yellow;
+		text-decoration: underline;
+
+	}
